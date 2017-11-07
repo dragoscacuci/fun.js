@@ -1,0 +1,30 @@
+[
+  {
+    "author": "Irvine Welsh",
+    "id": 1,
+    "stock": 14,
+    "title": "Trainspotting",
+    "year": 1993
+  },
+  {
+    "author": "Chuck Palahniuk",
+    "id": 2,
+    "stock": 5,
+    "title": "Invisible Monsters",
+    "year": 1999
+  },
+  {
+    "author": "Stephen King",
+    "id": 3,
+    "stock": 0,
+    "title": "The Shining",
+    "year": 1977
+  },
+  {
+    "author": "Arthur C. Clarke",
+    "id": 4,
+    "stock": 0,
+    "title": "2011: A Space Odyssey",
+    "year": 1968
+  }
+]

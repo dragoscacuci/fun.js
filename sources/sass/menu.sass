@@ -1,0 +1,39 @@
+.menu__trigger
+  cursor: pointer
+
+.menu__content
+  background-color: $paper
+  border-radius: 4px
+  border: 1px solid $silk
+  font-size: 11px
+  width: 150px
+
+  &:before
+    border-bottom-color: rgba(0, 0, 0, 0.2)
+    border-bottom: 7px solid $silk
+    border-left: 7px solid transparent
+    border-right: 7px solid transparent
+    content: ''
+    display: inline-block
+    position: absolute
+    top: -7px
+    right: 18px
+
+  &:after
+    border-bottom: 6px solid $paper
+    border-left: 6px solid transparent
+    border-right: 6px solid transparent
+    content: ''
+    display: inline-block
+    position: absolute
+    top: -5px
+    right: 19px
+
+.menu__option
+  cursor: pointer
+  padding: 5px 10px
+  &:hover
+    background-color: $silk
+
+.menu__option--active
+  background-color: $pale-gold

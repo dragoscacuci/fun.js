@@ -1,0 +1,107 @@
+html
+  height: 100%
+
+body
+  color: $charcoal
+  height: 100%
+
+#main
+  height: 100%
+
+button
+  &:focus
+    outline: 0
+
+.icon-button
+  cursor: pointer
+  font-size: 20px
+
+  &:hover
+    color: $pale-gold
+
+.button
+  -moz-border-radius: 4px
+  -webkit-border-radius: 4px
+  background-color: $paper
+  border-radius: 4px
+  border: 1px solid $silk
+  color: $charcoal
+
+  &:hover
+    background-color: $silk
+    border-color: $pale-gold
+
+.sidebar
+  background-color: $silk
+  color: $charcoal
+  float: left
+  height: calc(100% - 60px)
+  margin-right: -100%
+  max-height: none
+  padding: 0
+  position: absolute
+  width: 200px
+
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+
+    li
+      padding: 10px
+
+      &:hover
+        background-color: $pale-gold
+
+      a
+        color: $charcoal
+        text-decoration: none
+
+      &.sidebar__link--active
+        background-color: $charcoal
+        a
+          color: $silk
+
+.header
+  align-items: center
+  background-color: $charcoal
+  display: flex
+  height: 60px
+
+.page-content
+  background: #ffffff
+  height: calc(100% - 60px)
+  margin-left: 200px
+  margin-top: 0
+  overflow-y: auto
+  padding: 0
+
+.application-logo
+  align-items: center
+  cursor: pointer
+  display: flex
+  padding: 5px 10px
+
+  .logo
+    width: 40px
+
+  .title
+    color: $paper
+    font-size: 30px
+
+.not-available
+  align-items: center
+  display: flex
+  flex-flow: column
+  font-size: 20px
+  height: 100%
+  justify-content: center
+  min-height: 200px
+
+.basic-container
+  display: flex
+  flex-flow: column
+  padding: 10px
+
+  *
+    margin-top: 10px

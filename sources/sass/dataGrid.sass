@@ -1,0 +1,28 @@
+.data-grid
+  display: flex
+  flex-flow: column
+
+.data-grid__row
+  align-items: center
+  color: $charcoal
+  display: flex
+
+.data-grid__row--odd
+  background-color: $paper
+
+.data-grid__header
+  .data-grid__row
+    font-weight: 600
+
+.data-grid__body
+  overflow-y: auto
+  .data-grid__row
+    &:hover
+      background-color: $silk
+
+.data-grid__cell
+  flex: 1 1 auto
+  overflow: hidden
+  padding: 10px
+  text-overflow: ellipsis
+  white-space: nowrap
