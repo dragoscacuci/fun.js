@@ -1,8 +1,9 @@
 'use strict';
 
+
 const factorial = (n) => {
-  var result = 1;
-  for (var x = 1; x <= n; x += 1) {
+  let result = 1;
+  for (let x = 1; x <= n; x += 1) {
     result = x * result;
     console.log('Intermediate result: ', result);
   }
@@ -10,25 +11,30 @@ const factorial = (n) => {
   return result;
 };
 
-const factorialRecursive = (n, trace) => {
+
+const factorialRecursive = (n) => {
   if (n < 2) {
-    trace && console.trace();
+    // console.trace();
     return n;
   }
-  trace && console.trace();
-  return n * factorialRecursive(n - 1, trace);
+  // console.trace();
+  return n * factorialRecursive(n - 1);
 };
+
 
 const tailFactorialRecursive = (n) => {
   const recurse = (x, y) => {
     if (y === n) {
+      console.trace();
       return x * y;
     }
+    console.trace();
     return recurse(x * y, y + 1);
   };
 
   return recurse(1, 1);
 };
+
 
 export default {
   factorial,

@@ -19,16 +19,6 @@ export default () => {
 
   const state4 = doAction(state3)(decrement);
 
-  console.log(initialState);
-
-  console.log(state1);
-
-  console.log(state2);
-
-  console.log(state3);
-
-  console.log(state4);
-
   const states = [initialState, state1, state2, state3, state4];
 
   return (

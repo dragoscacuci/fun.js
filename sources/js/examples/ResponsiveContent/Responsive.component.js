@@ -14,7 +14,7 @@ export default class SortingExample extends Component {
       books: BookService.books
     };
   }
-
+  ResponsiveLibrary
   render() {
     const {books} = this.state;
     const columns = BookLibraryConfiguration.COLUMNS;

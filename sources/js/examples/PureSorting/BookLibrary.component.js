@@ -76,7 +76,7 @@ export default class PureSortingExample extends Component {
       }
     }
 
-    return books.sort(compareFunction);
+    return books;
   };
 
   render() {

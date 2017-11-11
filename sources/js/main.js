@@ -7,7 +7,7 @@ import {render} from 'react-dom';
 import '../sass/style.sass';
 import reducers from './config/main.reducers';
 
-import PremiumFeature from './components/FeatureSecurity/PremiumFeature.component';
+import PremiumFeature from './components/FeatureSecurity/FeatureFlagging';
 import ResponsiveLibrary from './examples/ResponsiveContent/Responsive.component';
 import Header from './components/Layout/Header/Header.component';
 import Sidebar from './components/Layout/Sidebar/Sidebar.component';
